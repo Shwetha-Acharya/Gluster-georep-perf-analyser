@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ###############################################################################
-How to run:
-#bash performance_trigger.sh <workload type> <secondary_ip> <primary_client_ip>
-
-- workload can be either large, small or rename
-- secondary_ip is the secondary ip used during geo-rep setup
-- primary_client ip is the ip where pimary is mounted
+#How to run:
+##bash performance_trigger.sh <workload type> <secondary_ip> <primary_client_ip>
+#
+#- workload can be either large, small or rename
+#- secondary_ip is the secondary ip used during geo-rep setup
+#- primary_client ip is the ip where pimary is mounted
 ###############################################################################
 
 if [ $# -eq 0 ]; then
