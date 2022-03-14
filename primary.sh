@@ -23,4 +23,4 @@ gluster volume start primary
 gluster volume status primary
 
 #mount primary
-ssh $client_ip mount_primary.sh $ip1
+ssh $client_ip mount_primary.sh $client_ip
