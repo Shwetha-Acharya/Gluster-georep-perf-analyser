@@ -7,7 +7,7 @@
 #
 # primary_ip1 is not taken this script is to executed on the machine with primary_ip1
 ############################################################################
-<
+
 echo cleaning up geo-rep setup
 yes | gluster volume geo-replication primary $secondary_ip1::secondary stop
 yes | gluster volume geo-replication primary $secondary_ip1::secondary delete reset-sync-time
